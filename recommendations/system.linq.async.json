@@ -1,0 +1,54 @@
+{
+    "Name": "System.Linq.Async",
+    "Version": "4.0.0",
+    "Packages": [
+        {
+            "Name": "System.Linq.Async",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "System.Linq.Async",
+            "Value": "System.Linq.Async",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        },
+                        {
+                            "Name": "net5.0",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "Azure.ImageOptimizer",
+                            "Description": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
