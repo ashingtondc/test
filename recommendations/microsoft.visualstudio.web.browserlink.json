@@ -1,0 +1,54 @@
+{
+    "Name": "Microsoft.VisualStudio.Web.BrowserLink",
+    "Version": "2.2.0",
+    "Packages": [
+        {
+            "Name": "Microsoft.VisualStudio.Web.BrowserLink",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "Microsoft.VisualStudio.Web.BrowserLink",
+            "Value": "Microsoft.VisualStudio.Web.BrowserLink",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        },
+                        {
+                            "Name": "net5.0",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "System.Linq.Async",
+                            "Description": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
