@@ -1,0 +1,54 @@
+{
+    "Name": "WebMarkupMin.AspNetCore2",
+    "Version": "2.7.0",
+    "Packages": [
+        {
+            "Name": "WebMarkupMin.AspNetCore2",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "WebMarkupMin.AspNetCore2",
+            "Value": "WebMarkupMin.AspNetCore2",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        },
+                        {
+                            "Name": "net5.0",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "Azure.ImageOptimizer",
+                            "Description": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
