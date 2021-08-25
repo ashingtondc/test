@@ -1,0 +1,45 @@
+{
+    "Name": "WebEssentials.AspNetCore.StaticFilesWithCache",
+    "Version": "1.0.1",
+    "Packages": [
+        {
+            "Name": "WebEssentials.AspNetCore.StaticFilesWithCache",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "WebEssentials.AspNetCore.StaticFilesWithCache",
+            "Value": "WebEssentials.AspNetCore.StaticFilesWithCache",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "Azure.ImageOptimizer",
+                            "Description": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
